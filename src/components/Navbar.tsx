@@ -18,7 +18,7 @@ const NavBar = () => {
   return (
     <div className={`sticky top-0 flex flex-row h-16 items-center align-center font-medium text-gray-100 z-20 ${!isMain && 'bg-black'}`}>
       <Link className="mr-auto" href="#">
-        UTM ACE
+        ACE UTM
       </Link>
       <Link className="ml-auto" href="#events">
         Events

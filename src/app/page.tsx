@@ -15,9 +15,9 @@ const Main = () => {
           backgroundRepeat: 'no-repeat',
         }}
       />
-      <div className="relative w-1/2 ">
-        <h1 className="text-6xl font-bold">{data.main.title}</h1>
-        <p className="text-xl mt-10">{data.main.description}</p>
+      <div className="relative lg:w-1/2 ">
+        <h1 className="text-4xl lg:text-6xl font-bold">{data.main.title}</h1>
+        <p className="text-base lg:text-xl mt-10">{data.main.description}</p>
       </div>
     </div>
   )
@@ -49,7 +49,7 @@ interface AvatarProps {
 }
 const Avatar = ({ user }: AvatarProps) => {
   return (
-    <div className="mx-10 my-4">
+    <div className="mx-4 lg:mx-10 my-4">
       <img src={user.photo} alt={user.name} className="rounded-full w-20" />
       <div className="text-center">
         <p className="font-bold">{user.name}</p>
@@ -73,7 +73,7 @@ const About = () => {
 
 export default function Home() {
   return (
-    <div className="px-32 bg-black min-h-screen text-white">
+    <div className="px-8 lg:px-32 bg-black min-h-screen text-white">
       <NavBar />
       <Main />
       <Events />

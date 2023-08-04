@@ -23,13 +23,50 @@ const Main = () => {
   )
 }
 
+const SubHeading = ({ text }: { text: string }) => {
+  return (
+    <h2 className="text-4xl font-bold mb-10">{text}</h2>
+  )
+}
+
 const Events = () => {
   return (
-    <div className="w-full relative">
-      <h2 className="text-4xl font-bold">{data.events.title}</h2>
+    <div className="w-full relative" id="events">
+      <SubHeading text={data.events.title} />
       {data.events.data.map((event, i) => {
         return <EventCard event={event} key={`event-${i}`} />
       })}
+    </div>
+  )
+}
+
+interface AvatarProps {
+  user: {
+    name: string
+    position: string
+    photo: string
+  }
+}
+const Avatar = ({ user }: AvatarProps) => {
+  return (
+    <div className="mx-10 my-4">
+      <img src={user.photo} alt={user.name} className="rounded-full w-20" />
+      <div className="text-center">
+        <p className="font-bold">{user.name}</p>
+        <p className="text-sm opacity-70">{user.position}</p>
+      </div>
+    </div>
+  )
+}
+const About = () => {
+  return (
+    <div className="mt-20" id="about">
+      <SubHeading text={data.about.title} />
+      <div className="flex flex-row flex-wrap justify-evenly">
+        {data.about.data.map((user, i) => {
+          return <Avatar user={user} key={`user-${i}`} />
+        })}
+      </div>
     </div>
   )
 }
@@ -40,6 +77,7 @@ export default function Home() {
       <NavBar />
       <Main />
       <Events />
+      <About />
       <Footer />
     </div>
   )

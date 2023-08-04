@@ -44,6 +44,18 @@ const data: IData = {
         photo:
           'https://media.licdn.com/dms/image/C5622AQEgsMiWfPrPfQ/feedshare-shrink_2048_1536/0/1670547006422?e=1694044800&v=beta&t=VTStlpYbMhmIxygGaxN-eqSGsjL8twIqqlWR_dUPk5E',
       },
+      {
+        title: 'This is a title',
+        description: `
+          This event provided our members with the perfect opportunity to put their presentation skills to the test. 
+          Individuals (or teams) were able to compete in one of the following categories: (1) Business-to-Business Marketing 
+          (2) Corporate Finance, and (3) Management Consulting. Attendees were given the case three days in advance and were required to 
+          present a 10 to 15 minute solution.The day was filled with networking opportunities, gaining professional experience, and receiving 
+          constructive feedback from judges. Special thanks to our distinguished panel of judges and industry
+        `,
+        photo:
+          'https://media.licdn.com/dms/image/C5622AQEgsMiWfPrPfQ/feedshare-shrink_2048_1536/0/1670547006422?e=1694044800&v=beta&t=VTStlpYbMhmIxygGaxN-eqSGsjL8twIqqlWR_dUPk5E',
+      },
     ],
   },
   about: {
@@ -53,7 +65,47 @@ const data: IData = {
         name: 'Shari Sun',
         position: 'President',
         photo: 'https://media.licdn.com/dms/image/D5603AQHYr3r-wtefWA/profile-displayphoto-shrink_400_400/0/1668490162882?e=1696464000&v=beta&t=ZmbGrXXyjoe4NLrzQ_KN_PvjsSrD6lfCB6xiQIH2ge4',
-      }
+      },
+      {
+        name: 'Shari Sun',
+        position: 'President',
+        photo: 'https://media.licdn.com/dms/image/D5603AQHYr3r-wtefWA/profile-displayphoto-shrink_400_400/0/1668490162882?e=1696464000&v=beta&t=ZmbGrXXyjoe4NLrzQ_KN_PvjsSrD6lfCB6xiQIH2ge4',
+      },
+      {
+        name: 'Shari Sun',
+        position: 'President',
+        photo: 'https://media.licdn.com/dms/image/D5603AQHYr3r-wtefWA/profile-displayphoto-shrink_400_400/0/1668490162882?e=1696464000&v=beta&t=ZmbGrXXyjoe4NLrzQ_KN_PvjsSrD6lfCB6xiQIH2ge4',
+      },
+      {
+        name: 'Shari Sun',
+        position: 'President',
+        photo: 'https://media.licdn.com/dms/image/D5603AQHYr3r-wtefWA/profile-displayphoto-shrink_400_400/0/1668490162882?e=1696464000&v=beta&t=ZmbGrXXyjoe4NLrzQ_KN_PvjsSrD6lfCB6xiQIH2ge4',
+      },
+      {
+        name: 'Shari Sun',
+        position: 'President',
+        photo: 'https://media.licdn.com/dms/image/D5603AQHYr3r-wtefWA/profile-displayphoto-shrink_400_400/0/1668490162882?e=1696464000&v=beta&t=ZmbGrXXyjoe4NLrzQ_KN_PvjsSrD6lfCB6xiQIH2ge4',
+      },
+      {
+        name: 'Shari Sun',
+        position: 'President',
+        photo: 'https://media.licdn.com/dms/image/D5603AQHYr3r-wtefWA/profile-displayphoto-shrink_400_400/0/1668490162882?e=1696464000&v=beta&t=ZmbGrXXyjoe4NLrzQ_KN_PvjsSrD6lfCB6xiQIH2ge4',
+      },
+      {
+        name: 'Shari Sun',
+        position: 'President',
+        photo: 'https://media.licdn.com/dms/image/D5603AQHYr3r-wtefWA/profile-displayphoto-shrink_400_400/0/1668490162882?e=1696464000&v=beta&t=ZmbGrXXyjoe4NLrzQ_KN_PvjsSrD6lfCB6xiQIH2ge4',
+      },
+      {
+        name: 'Shari Sun',
+        position: 'President',
+        photo: 'https://media.licdn.com/dms/image/D5603AQHYr3r-wtefWA/profile-displayphoto-shrink_400_400/0/1668490162882?e=1696464000&v=beta&t=ZmbGrXXyjoe4NLrzQ_KN_PvjsSrD6lfCB6xiQIH2ge4',
+      },
+      {
+        name: 'Shari Sun',
+        position: 'President',
+        photo: 'https://media.licdn.com/dms/image/D5603AQHYr3r-wtefWA/profile-displayphoto-shrink_400_400/0/1668490162882?e=1696464000&v=beta&t=ZmbGrXXyjoe4NLrzQ_KN_PvjsSrD6lfCB6xiQIH2ge4',
+      },
     ]
   },
 }

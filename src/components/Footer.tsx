@@ -7,6 +7,7 @@ const Footer = () => {
       <p className="mt-2">
         © UTM ACE 2023 | Website designed and engineered by{' '}
         <Link href="https://www.linkedin.com/in/shari-sun/" className="text-blue-600" target="_blank">Shari Sun</Link>
+        {' '}: )
       </p>
     </div>
   )

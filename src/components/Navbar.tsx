@@ -1,9 +1,31 @@
+"use client"
+import Link from 'next/link'
+import { useEffect, useState } from 'react'
+
 const NavBar = () => {
+  const [isMain, setIsMain] = useState(true)
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= window.innerHeight) {
+        setIsMain(false)
+      } else {
+        setIsMain(true)
+      }
+    })
+  }, [])
+
   return (
-    <div className="flex flex-row h-16 items-center align-center sticky font-medium">
-      <p className="mr-auto text-gray-200">UTM ACE</p>
-      <p className="ml-auto text-gray-200">Events</p>
-      <p className="ml-10 text-gray-200">About</p>
+    <div className={`sticky top-0 flex flex-row h-16 items-center align-center font-medium text-gray-100 z-20 ${!isMain && 'bg-black'}`}>
+      <Link className="mr-auto" href="#">
+        UTM ACE
+      </Link>
+      <Link className="ml-auto" href="#events">
+        Events
+      </Link>
+      <Link className="ml-10" href="#about">
+        About
+      </Link>
     </div>
   )
 }

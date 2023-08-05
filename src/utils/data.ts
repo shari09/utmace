@@ -108,7 +108,7 @@ const data: IData = {
       },
       {
         name: 'Shari Sun',
-        position: 'President',
+        position: 'marketing',
         photo: 'https://media.licdn.com/dms/image/D5603AQHYr3r-wtefWA/profile-displayphoto-shrink_400_400/0/1668490162882?e=1696464000&v=beta&t=ZmbGrXXyjoe4NLrzQ_KN_PvjsSrD6lfCB6xiQIH2ge4',
       },
       {

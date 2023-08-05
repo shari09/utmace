@@ -50,8 +50,8 @@ interface AvatarProps {
 }
 const Avatar = ({ user }: AvatarProps) => {
   return (
-    <div className="mx-4 lg:mx-10 my-4">
-      <img src={parseGDriveUrl(user.photo)} alt={user.name} className="rounded-full w-20" />
+    <div className="mx-4 lg:mx-10 my-4 items-center flex flex-col">
+      <img src={parseGDriveUrl(user.photo)} alt={user.name} className="rounded-full w-20 mb-1" />
       <div className="text-center">
         <p className="font-bold">{user.name}</p>
         <p className="text-sm opacity-70">{user.position}</p>

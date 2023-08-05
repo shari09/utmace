@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import igIcon from '../../public/ig_icon.svg'
 import linkedinIcon from '../../public/linkedin_icon.svg'
+import { parseGDriveUrl } from '@/utils/util'
 
 const NavBar = () => {
   const [isMain, setIsMain] = useState(true)
@@ -29,10 +30,10 @@ const NavBar = () => {
         About
       </Link>
       <Link href="https://www.linkedin.com/company/aceutm/" target="_blank" className="ml-10">
-        <img src={linkedinIcon.src} />
+        <img src={parseGDriveUrl(linkedinIcon.src)} />
       </Link>
       <Link href="https://www.instagram.com/aceutm/" target="_blank" className="ml-2">
-        <img src={igIcon.src} />
+        <img src={parseGDriveUrl(igIcon.src)} />
       </Link>
     </div>
   )

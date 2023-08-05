@@ -3,6 +3,7 @@ import bg from '../../public/bg.jpg'
 import data from '@/utils/data'
 import Footer from '@/components/Footer'
 import EventCard from '@/components/EventCard'
+import { parseGDriveUrl } from '@/utils/util'
 
 const Main = () => {
   return (
@@ -50,7 +51,7 @@ interface AvatarProps {
 const Avatar = ({ user }: AvatarProps) => {
   return (
     <div className="mx-4 lg:mx-10 my-4">
-      <img src={user.photo} alt={user.name} className="rounded-full w-20" />
+      <img src={parseGDriveUrl(user.photo)} alt={user.name} className="rounded-full w-20" />
       <div className="text-center">
         <p className="font-bold">{user.name}</p>
         <p className="text-sm opacity-70">{user.position}</p>

@@ -89,7 +89,7 @@ const data: IData = {
       {
         name: 'Adam Hosn',
         position: 'Co-President',
-        photo: 'https://drive.google.com/file/d/1AZK-4T_t3h2MR9ofJLs6vPwuBVsUrIC5/view?usp=drive_link',
+        photo: 'https://drive.google.com/file/d/1AZK-4T_t3h2MR9ofJLs6vPwuBVsUrIC5/view',
       },
       {
         name: 'Christopher',

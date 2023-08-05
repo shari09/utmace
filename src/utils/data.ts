@@ -31,12 +31,12 @@ const data: IData = {
   main: {
     title: 'Be the Next Business Leader',
     description: `
-      Formerly DECA UTM, ACE is a University of Toronto Mississauga club organizing various events helping students improve communication skills, 
-      analytical skills, and critical thinking, prepping them to be the next generation of leaders.
+      Formerly DECA UTM, ACE UTM is a University of Toronto Mississauga club organizing various events helping students improve communication skills, 
+      analytical skills, and critical thinking, prepping them to be the next generation of leaders. 
     `,
   },
   events: {
-    title: 'Join our next events',
+    title: 'Our Main Events',
     data: [
       {
         title: 'Mock Nationals',
@@ -51,7 +51,7 @@ const data: IData = {
           'https://media.licdn.com/dms/image/C5622AQEgsMiWfPrPfQ/feedshare-shrink_2048_1536/0/1670547006422?e=1694044800&v=beta&t=VTStlpYbMhmIxygGaxN-eqSGsjL8twIqqlWR_dUPk5E',
       },
       {
-        title: 'This is a title',
+        title: 'ACE Nationals',
         description: `
           This event provided our members with the perfect opportunity to put their presentation skills to the test. 
           Individuals (or teams) were able to compete in one of the following categories: (1) Business-to-Business Marketing 
@@ -63,7 +63,7 @@ const data: IData = {
           'https://media.licdn.com/dms/image/C5622AQEgsMiWfPrPfQ/feedshare-shrink_2048_1536/0/1670547006422?e=1694044800&v=beta&t=VTStlpYbMhmIxygGaxN-eqSGsjL8twIqqlWR_dUPk5E',
       },
       {
-        title: 'This is a orange',
+        title: 'Hack The Case',
         description: `
           This event provided our members with the perfect opportunity to put their presentation skills to the test. 
           Individuals (or teams) were able to compete in one of tasdfa sdfasdfsd fds fsd f sd fasd fsad fss-to-Business Marketing 
@@ -77,13 +77,10 @@ const data: IData = {
     ],
   },
   about: {
-    title: 'Who we are',
+    title: 'Who We Are',
     description: `
-      This event provided our members with the perfect opportunity to put their presentation skills to the test. 
-      Individuals (or teams) were able to compete in one of the following categories: (1) Business-to-Business Marketing 
-      (2) Corporate Finance, and (3) Management Consulting. Attendees were given the case three days in advance and were required to 
-      present a 10 to 15 minute solution.The day was filled with networking opportunities, gaining professional experience, and receiving 
-      constructive feedback from judges. Special thanks to our distinguished panel of judges and industry
+      Formerly known as DECA UTM, ACE UTM stands as one of the largest and most prominent organizations at the University of Toronto Mississauga. Our focus revolves around equipping students with the skills required for excelling in business case competitions, enabling them to adeptly tackle challenges and present their solutions with a touch of formality.
+Our primary objective is to foster self-assurance among students when navigating public environments, empowering them to chase after their career ambitions and cultivate a polished professional identity. Through our efforts, ACE UTM aims to establish a connection between emerging young adults and seasoned business enthusiasts, bridging the generational gap with knowledge and insight.
     `,
     presidents: [
       {

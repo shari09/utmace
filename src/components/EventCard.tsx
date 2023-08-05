@@ -1,4 +1,4 @@
-import data from '@/utils/data'
+import { parseGDriveUrl } from '@/utils/util'
 
 interface Props {
   event: {
@@ -12,7 +12,7 @@ const EventCard = ({ event }: Props) => {
   return (
     <div className="w-full rounded-lg bg-gray-900 my-10 p-4 lg:p-10 flex flex-col lg:flex-row">
       <img
-        src={event.photo}
+        src={parseGDriveUrl(event.photo)}
         alt={event.title}
         className="rounded-lg w-full lg:w-1/2 h-full object-cover"
       />

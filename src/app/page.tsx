@@ -62,8 +62,14 @@ const About = () => {
   return (
     <div className="mt-20" id="about">
       <SubHeading text={data.about.title} />
+      <p className="text-base lg:text-lg mb-10">{data.about.description}</p>
       <div className="flex flex-row flex-wrap justify-evenly">
-        {data.about.data.map((user, i) => {
+        {data.about.presidents.map((user, i) => {
+          return <Avatar user={user} key={`user-${i}`} />
+        })}
+      </div>
+      <div className="flex flex-row flex-wrap justify-evenly">
+        {data.about.others.map((user, i) => {
           return <Avatar user={user} key={`user-${i}`} />
         })}
       </div>

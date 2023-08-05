@@ -1,6 +1,8 @@
 "use client"
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
+import igIcon from '../../public/ig_icon.svg'
+import linkedinIcon from '../../public/linkedin_icon.svg'
 
 const NavBar = () => {
   const [isMain, setIsMain] = useState(true)
@@ -23,8 +25,14 @@ const NavBar = () => {
       <Link className="ml-auto" href="#events">
         Events
       </Link>
-      <Link className="ml-10" href="#about">
+      <Link className="ml-10" href="/about">
         About
+      </Link>
+      <Link href="https://www.linkedin.com/company/aceutm/" target="_blank" className="ml-10">
+        <img src={linkedinIcon.src} />
+      </Link>
+      <Link href="https://www.instagram.com/aceutm/" target="_blank" className="ml-2">
+        <img src={igIcon.src} />
       </Link>
     </div>
   )

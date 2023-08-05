@@ -89,7 +89,7 @@ const data: IData = {
       {
         name: 'Adam Hosn',
         position: 'Co-President',
-        photo: 'https://media.licdn.com/dms/image/D5603AQHYr3r-wtefWA/profile-displayphoto-shrink_400_400/0/1668490162882?e=1696464000&v=beta&t=ZmbGrXXyjoe4NLrzQ_KN_PvjsSrD6lfCB6xiQIH2ge4',
+        photo: 'https://drive.google.com/file/d/1AZK-4T_t3h2MR9ofJLs6vPwuBVsUrIC5/view?usp=drive_link',
       },
       {
         name: 'Christopher',

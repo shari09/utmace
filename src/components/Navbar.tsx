@@ -26,7 +26,7 @@ const NavBar = () => {
       <Link className="ml-auto" href="#events">
         Events
       </Link>
-      <Link className="ml-10" href="/about">
+      <Link className="ml-10" href="#about">
         About
       </Link>
       <Link href="https://www.linkedin.com/company/aceutm/" target="_blank" className="ml-10">

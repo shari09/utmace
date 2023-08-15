@@ -17,14 +17,14 @@ const Photo = ({ src, key }: { src: string; key: string }) => {
 export default function Gallery() {
   const { gallery } = data
   return (
-    <div>
+    <div className="bg-black">
       <NavBar nofade />
       <div className="lg:px-32 px-8 pt-16">
         <SubHeading text={gallery.title} />
         <div className="py-12">
           {gallery.description}
         </div>
-        <div className="bg-black flex flex-wrap gap-6 justify-evenly">
+        <div className="flex flex-wrap gap-6 justify-evenly">
           {gallery.content.map((item, i) => (<Photo src={item.photo} key={`gallery-${i}`} />))}
         </div>
       </div>

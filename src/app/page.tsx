@@ -7,7 +7,7 @@ import { parseGDriveUrl } from '@/utils/util'
 
 const Main = () => {
   return (
-    <div className="w-full h-screen pt-48 lg:px-32">
+    <div className="w-full h-screen pt-48 lg:px-32 px-8">
       <div
         className="w-full h-screen opacity-40 absolute left-0 top-0 z-0"
         style={{
@@ -32,7 +32,7 @@ export const SubHeading = ({ text }: { text: string }) => {
 
 const Events = () => {
   return (
-    <div className="w-full relative lg:px-32 text-white" id="events">
+    <div className="w-full relative lg:px-32 px-8 text-white" id="events">
       <SubHeading text={data.events.title} />
       {data.events.data.map((event, i) => {
         return <EventCard event={event} key={`event-${i}`} />
@@ -61,7 +61,7 @@ const Avatar = ({ user }: AvatarProps) => {
 }
 const About = () => {
   return (
-    <div className="mt-20 lg:px-32" id="about">
+    <div className="mt-20 lg:px-32 px-8" id="about">
       <SubHeading text={data.about.title} />
       <p className="text-base lg:text-lg mb-10">{data.about.description}</p>
       <div className="flex flex-row flex-wrap justify-evenly">

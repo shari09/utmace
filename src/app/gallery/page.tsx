@@ -8,7 +8,7 @@ import Footer from '@/components/Footer';
 const Photo = ({ src, key }: { src: string; key: string }) => {
 
   return (
-    <div className={`rounded-small w-[26vw] h-[18vw] flex-grow`} key={key}>
+    <div className={`rounded-small w-full h-1/3 md:w-[26vw] md:h-[18vw] flex-grow`} key={key}>
       <img src={parseGDriveUrl(src)} className={`rounded-lg object-cover w-full h-full`}/>
     </div>
   )
@@ -19,7 +19,7 @@ export default function Gallery() {
   return (
     <div>
       <NavBar nofade />
-      <div className="lg:px-32 pt-16">
+      <div className="lg:px-32 px-8 pt-16">
         <SubHeading text={gallery.title} />
         <div className="py-12">
           {gallery.description}

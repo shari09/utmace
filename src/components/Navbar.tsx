@@ -20,7 +20,7 @@ const NavBar = ({ nofade }: { nofade?: boolean }) => {
   }, [])
 
   return (
-    <div className={`sticky top-0 flex flex-row h-16 items-center align-center font-medium text-gray-100 z-20 ${(!isMain || nofade) && 'bg-black'} lg:px-32`}>
+    <div className={`sticky top-0 flex flex-row h-16 items-center align-center font-medium text-gray-100 z-20 ${(!isMain || nofade) && 'bg-black'} lg:px-32 px-8`}>
       <Link className="mr-auto" href="/">
         <img src={logo.src} width={120} />
       </Link>

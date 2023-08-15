@@ -25,6 +25,13 @@ interface IData {
       photo: string
     }[]
   }
+  gallery: {
+    title: string
+    description: string
+    content: {
+      photo: string
+    }[]
+  }
 }
 
 const data: IData = {
@@ -86,46 +93,127 @@ Our primary objective is to foster self-assurance among students when navigating
       {
         name: 'Adam Aboul Hosn',
         position: 'Co-President',
-        photo: 'https://drive.google.com/file/d/1IUJVhqJgmQ_DflKlkx_t7ExvNFHUggrc/view',
+        photo:
+          'https://drive.google.com/file/d/1IUJVhqJgmQ_DflKlkx_t7ExvNFHUggrc/view',
       },
       {
         name: 'Cheuk Hin Leung',
         position: 'Co-President',
-        photo: 'https://drive.google.com/file/d/1n3vPjqxRV5RbNlv_ZuuuYPd5Ou6hRwBR/view',
+        photo:
+          'https://drive.google.com/file/d/1n3vPjqxRV5RbNlv_ZuuuYPd5Ou6hRwBR/view',
       },
     ],
     others: [
       {
         name: 'Curtis Quon',
         position: 'VP Marketing',
-        photo: 'https://drive.google.com/file/d/1N6YQBWpcfDsbG3rmzOQke9Zo1hfNQnoO/view',
+        photo:
+          'https://drive.google.com/file/d/1N6YQBWpcfDsbG3rmzOQke9Zo1hfNQnoO/view',
       },
       {
         name: 'Karen Kosugi',
         position: 'VP Equity',
-        photo: 'https://drive.google.com/file/d/1lhIsw-zIvZfBb3SdmkhicyuPccRTbyDN/view',
+        photo:
+          'https://drive.google.com/file/d/1lhIsw-zIvZfBb3SdmkhicyuPccRTbyDN/view',
       },
       {
         name: 'Mikas Agarwal',
         position: 'VP Internal',
-        photo: 'https://drive.google.com/file/d/1H4CkB1jgMPfWbruj9HdP9ywX4U6Q4Vcj/view',
+        photo:
+          'https://drive.google.com/file/d/1H4CkB1jgMPfWbruj9HdP9ywX4U6Q4Vcj/view',
       },
       {
         name: 'Nirmit Nirankari',
         position: 'VP Chapter Development',
-        photo: 'https://drive.google.com/file/d/105pMNvv5fIs2XEwKI9Xy23oazxODb6zi/view',
+        photo:
+          'https://drive.google.com/file/d/105pMNvv5fIs2XEwKI9Xy23oazxODb6zi/view',
       },
       {
         name: 'Seoghee Hwang',
         position: 'VP External',
-        photo: 'https://drive.google.com/file/d/1pNXhDpowPOJOUiox25np2RCrgBnnHxtC/view',
+        photo:
+          'https://drive.google.com/file/d/1pNXhDpowPOJOUiox25np2RCrgBnnHxtC/view',
       },
       {
         name: 'Sharifamo Odinamamadova',
         position: 'VP Finance',
-        photo: 'https://drive.google.com/file/d/19OYLeXNvdPqgQxbHwjC-yAF8wnxV2ccE/view',
+        photo:
+          'https://drive.google.com/file/d/19OYLeXNvdPqgQxbHwjC-yAF8wnxV2ccE/view',
       },
-    ]
+    ],
+  },
+  gallery: {
+    title: 'Gallery',
+    description: 'this is a desciprotn blahb lhbaalbh alhblah blab l',
+    content: [
+      {
+        photo: 'https://drive.google.com/file/d/1yjPxFo8iVqrA2t-2Y91kryV0t8wSf-LD/view',
+      },
+      {
+        photo:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/1200px-Orange-Fruit-Pieces.jpg',
+      },
+      {
+        photo:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/1200px-Orange-Fruit-Pieces.jpg',
+      },
+      {
+        photo:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/1200px-Orange-Fruit-Pieces.jpg',
+      },
+      {
+        photo:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/1200px-Orange-Fruit-Pieces.jpg',
+      },
+      {
+        photo:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/1200px-Orange-Fruit-Pieces.jpg',
+      },
+      {
+        photo:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/1200px-Orange-Fruit-Pieces.jpg',
+      },
+      {
+        photo:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/1200px-Orange-Fruit-Pieces.jpg',
+      },
+      {
+        photo:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/1200px-Orange-Fruit-Pieces.jpg',
+      },
+      {
+        photo:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/1200px-Orange-Fruit-Pieces.jpg',
+      },
+      {
+        photo:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/1200px-Orange-Fruit-Pieces.jpg',
+      },
+      {
+        photo:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/1200px-Orange-Fruit-Pieces.jpg',
+      },
+      {
+        photo:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/1200px-Orange-Fruit-Pieces.jpg',
+      },
+      {
+        photo:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/1200px-Orange-Fruit-Pieces.jpg',
+      },
+      {
+        photo:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/1200px-Orange-Fruit-Pieces.jpg',
+      },
+      {
+        photo:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/1200px-Orange-Fruit-Pieces.jpg',
+      },
+      {
+        photo:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/1200px-Orange-Fruit-Pieces.jpg',
+      },
+    ],
   },
 }
 

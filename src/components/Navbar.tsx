@@ -3,9 +3,10 @@ import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import igIcon from '../../public/ig_icon.svg'
 import linkedinIcon from '../../public/linkedin_icon.svg'
+import logo from '../../public/logo.svg'
 import { parseGDriveUrl } from '@/utils/util'
 
-const NavBar = () => {
+const NavBar = ({ nofade }: { nofade?: boolean }) => {
   const [isMain, setIsMain] = useState(true)
 
   useEffect(() => {
@@ -19,15 +20,18 @@ const NavBar = () => {
   }, [])
 
   return (
-    <div className={`sticky top-0 flex flex-row h-16 items-center align-center font-medium text-gray-100 z-20 ${!isMain && 'bg-black'}`}>
-      <Link className="mr-auto" href="#">
-        ACE UTM
+    <div className={`sticky top-0 flex flex-row h-16 items-center align-center font-medium text-gray-100 z-20 ${(!isMain || nofade) && 'bg-black'} lg:px-32`}>
+      <Link className="mr-auto" href="/">
+        <img src={logo.src} width={120} />
       </Link>
-      <Link className="ml-auto" href="#events">
+      <Link className="ml-auto" href="/#events">
         Events
       </Link>
-      <Link className="ml-10" href="#about">
+      <Link className="ml-10" href="/#about">
         About
+      </Link>
+      <Link className="ml-10" href="/gallery">
+        Gallery
       </Link>
       <Link href="https://www.linkedin.com/company/aceutm/" target="_blank" className="ml-10">
         <img src={parseGDriveUrl(linkedinIcon.src)} />

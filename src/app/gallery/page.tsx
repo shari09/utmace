@@ -17,7 +17,7 @@ const Photo = ({ src, key }: { src: string; key: string }) => {
 export default function Gallery() {
   const { gallery } = data
   return (
-    <div className="bg-black">
+    <div className="bg-black text-white">
       <NavBar nofade />
       <div className="lg:px-32 px-8 pt-16">
         <SubHeading text={gallery.title} />
